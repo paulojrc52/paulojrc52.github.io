@@ -59,6 +59,7 @@ h2 {
 }
 
 .links-list li a {
+    text-align: center;
     display: block;
     background: white;
     padding: 15px 20px;
@@ -80,6 +81,8 @@ h2 {
     margin-top: 30px;
 }
 
-
-
+.links-list img {
+    width: 250px;
+        
+}
 
