@@ -71,6 +71,26 @@ h2 {
     box-shadow: 0 0 20px white;
 }
 
+.footer {
+    display: flex;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.footer a {
+    text-align: center;
+    width: 100%;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 3px solid rgb(227, 252, 3);
+    box-shadow: 0 0 20px white;
+}
+
+
 .links-list li a span {
     color: grey;
     display: block;
