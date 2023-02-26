@@ -24,7 +24,7 @@ body {
 
 .avatar {
   width: 130px;
-  border-radius: 50%;
+  border-radius: 50px;
   border: 2px solid  white;
   box-shadow: 0 0 10px white;
 }
