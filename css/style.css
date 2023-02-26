@@ -92,6 +92,38 @@ h2 {
   max-width: 900px;
 }
 
+.contacts {
+  padding: 15px;
+  list-style: none;
+}
+
+.contacts li {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.contacts li a {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  padding: 3px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: rgb(54,77,204);
+  font-weight: bold;
+  border: 1px solid blue;
+  box-shadow: 0 0 15px white;
+}
+.contacts li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+  }
+
 .footer {
   display: flex;
   list-style: none;
