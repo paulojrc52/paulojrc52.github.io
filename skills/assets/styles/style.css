@@ -101,17 +101,12 @@ body {
 .container {
   text-align: center;
   max-width: 800px;
-
   justify-content: center;
   align-items: center;
 }
 
 #gameBoard h1 {
   text-align: center;
-}
-
-.title{
-
 }
 
 .return a {
