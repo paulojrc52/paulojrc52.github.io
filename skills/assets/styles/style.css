@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Righteous', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a0adb9;
+  
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+
+}
+
+.title {
+  align-items: center;
+  max-width: 500px;
+  color: rgb(30, 45, 255);
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.card_back, .card_front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.card_front {
+  transform: rotateY(180deg);
+  background-color: #aa9f9f;
+  
+}
+
+.icon {
+  width: 70% ;
+}
+
+.card_back {
+  color: #aa9f9f;
+  background-color: #0018f5;
+  font-size: 30px;
+}
+
+#gameOver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+
+#gameOver button{
+  padding: 15px;
+  margin: 10px auto;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#gameBoard {
+  max-width: 500px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#gameBoard h1 {
+  text-align: center;
+}
+
+.title{
+
+}
+
+.return a {
+  color: black;
+  text-decoration: none;
+}
+

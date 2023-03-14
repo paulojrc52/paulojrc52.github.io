@@ -57,6 +57,19 @@ h2 {
   width: 33px;
 }
 
+.button-projects {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  color: rgb(54,77,204);
+  box-shadow: 0 0 15px white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
 .links-list {
   padding: 15px;
   list-style: none;
@@ -126,13 +139,12 @@ h2 {
 
 .footer {
   display: flex;
-  list-style: none;
-  margin: 10px 20px;
+  margin-bottom: 0;
 }
 
 .footer a {
   text-align: center;
-  width: 50%;
+  width: 300px;
   margin: 0 auto;
   background: white;
   padding: 5px 20px;
@@ -140,7 +152,7 @@ h2 {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  border: 3px solid white;
+  border: 1px solid rgb(0, 0, 0);
   box-shadow: 0 0 20px white;
 }
 
