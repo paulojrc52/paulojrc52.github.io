@@ -63,6 +63,11 @@ function flipCard() {
         if(game.checkGameOver()) {
           let gameOverLayer = document.querySelector('#gameOver')
           gameOverLayer.style.display = 'flex'
+          scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          })
         }
       } else {
         setTimeout(() => {
