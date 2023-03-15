@@ -15,7 +15,7 @@ body {
 
 .card {
   position: relative;
-  width: 100px;
+  width: 19%;
   height: 100px;
   margin:10px;
   transform-style: preserve-3d;
@@ -54,7 +54,7 @@ body {
 }
 
 .icon {
-  width: 70% ;
+  width: 80% ;
 }
 
 .card_back {
