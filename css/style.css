@@ -101,6 +101,7 @@ h2 {
 
 #links {
   display: flex;
+  height: 100%;
   flex-wrap: wrap;
   max-width: 900px;
 }

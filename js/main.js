@@ -2,6 +2,7 @@ const links = document.querySelector('#links')
 const buttonProjects = document.querySelector('[data-js="button-projects"]')
 
 const projects = [
+  {name: 'AnunXiar', img: './img/anunxiar.PNG', tec: ['JavaScript', 'NextJS', 'ReactJS', 'Material-UI', 'Next-auth', 'React-dropzone', 'Axios', 'Formik', 'Bcrypt', 'MongoDB', 'Mongoose', 'Yup'], text: 'Projeto desenvolvido com intuito de conseguir completar uma aplicação do começo ao fim utilizando JavaScript acompanhado de suas mais tradicionais Libs. Projeto desenvolvido baseado no projeto final do Curso Formação FullStack.', link: 'https://github.com/paulojrc52/anunxiar'},
   {name: 'Cadastrar endereço', img: './img/viacep.PNG', tec: ['JavaScript', 'HTML5', 'CSS3', 'API'], text: 'Projeto desenvolvido com intuito de conseguir completar um formulário de endereço no preenchimento do cep, consumindo a API ViaCep.', link: 'https://paulojrc52.github.io/cep_autocomplet/'},
   {name: 'Linktree', img: './img/linktree.PNG', tec: ['JavaScript', 'CSS3', 'HTML5', 'API Static Forms'], text: 'Projeto de portifolio desenvolvido com JavaScript, HTML e CSS.', link: 'https://shamantattoo.netlify.app/'},
   {name: 'Landing Page', img: './img/landing-page.PNG', tec: ['JavaScript', 'CSS3', 'HTML5', 'API frontend'], text: 'Projeto de Landing Page criado baseado em um projeto de teste de uma empresa.', link: 'https://paulojrc52.github.io/landing_page-teste/'},
