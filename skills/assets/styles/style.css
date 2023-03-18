@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #a0adb9;
+  background-color: rgb(30, 27, 46);
   
 }
 
@@ -25,9 +25,9 @@ body {
 
 .title {
   align-items: center;
-  max-width: 500px;
-  color: rgb(30, 45, 255);
-  border: 1px solid black;
+  max-width: 400px;
+  color: white;
+  border: 1px solid white;
   margin: 20px auto;
 }
 
@@ -58,8 +58,8 @@ body {
 }
 
 .card_back {
-  color: #aa9f9f;
-  background-color: #0018f5;
+  color: rgb(77, 75, 75);
+  background-color: rgb(226, 199, 43);
   font-size: 30px;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .container {
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   justify-content: center;
   align-items: center;
 }

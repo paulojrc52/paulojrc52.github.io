@@ -35,3 +35,40 @@ buttonProjects.addEventListener('click', () => {
 
 })
 
+const typing = document.querySelector('[data-js="typing"]')
+
+const messages = [
+  'Olá, me chamo Paulo Junior', 
+  'sou desenvolvedor de software', 
+  'trabalho com a linguagem JavaScript', 
+  'abaixo você encontra',
+  'redes sociais',
+  'alguns projetos', 
+  'e minhas habilidades'
+]
+
+let messageIndex = 0
+let characterIndex = 0
+let currentMessage = ''
+let currentCharacters = ''
+
+const type = () => {
+  const shouldTypeFirstMsg = messageIndex === messages.length
+
+  if(shouldTypeFirstMsg) {
+    messageIndex = 0
+  }
+
+  currentMessage = messages[messageIndex]
+  currentCharacters = currentMessage.slice(0, characterIndex++)
+  typing.textContent = currentCharacters
+
+  const shouldChangeMessage = currentCharacters.length === currentMessage.length
+  if (shouldChangeMessage) {
+    messageIndex++ 
+    characterIndex = 0
+  }
+}
+
+setInterval(type, 250)
+

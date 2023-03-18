@@ -11,7 +11,7 @@ html, body {
 body {
   font-family: 'Raleway', sans-serif;
   color: white;
-  background: rgb(40, 23, 138);
+  background: rgb(30, 27, 46);
 }
 
 .container {
@@ -33,7 +33,7 @@ h2 {
   margin-top: 5px;
   padding: 3px;
   font-size: 16px;
-  border: 0.5px solid rgb(77, 75, 75);;
+  border: 0.5px solid rgb(77, 75, 75);
   box-shadow: 0 0 10px white;
 }
 
@@ -41,6 +41,26 @@ h2 {
   position: relative;
   text-align: center;
   margin-top: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 5px;
+  box-shadow: 0 0 10px black;
+}
+
+.typing {
+  position: relative;
+  margin: 15px auto;
+}
+
+.typing::after {
+  content: "";
+  border-right: 2px solid black;
+  animation: blink 1s infinite ease;
 }
 
 .social {
@@ -60,10 +80,10 @@ h2 {
 .button-projects {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid blue;
+  border: 1px solid yellow;
   border-radius: 50px;
-  color: rgb(54,77,204);
-  box-shadow: 0 0 15px white;
+  color: rgb(226, 199, 43);
+  box-shadow: 0 0 10px white;
   cursor: pointer;
 }
 
@@ -127,9 +147,9 @@ h2 {
   padding: 3px 20px;
   border-radius: 20px;
   text-decoration: none;
-  color: rgb(54,77,204);
+  color: rgb(226, 199, 43);
   font-weight: bold;
-  border: 1px solid blue;
+  border: 1px solid yellow;
   box-shadow: 0 0 15px white;
 }
 .contacts li a span {
