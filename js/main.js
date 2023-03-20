@@ -2,7 +2,6 @@ const links = document.querySelector('#links')
 const buttonProjects = document.querySelector('[data-js="button-projects"]')
 
 const projects = [
-  {name: 'AnunXiar', img: './img/anunxiar.PNG', tec: ['JavaScript', 'NextJS', 'ReactJS', 'Material-UI', 'Next-auth', 'React-dropzone', 'Axios', 'Formik', 'Bcrypt', 'MongoDB', 'Mongoose', 'Yup'], text: 'Projeto desenvolvido com intuito de conseguir completar uma aplicação do começo ao fim utilizando JavaScript acompanhado de suas mais tradicionais Libs. Projeto desenvolvido baseado no projeto final do Curso Formação FullStack.', link: 'https://github.com/paulojrc52/anunxiar'},
   {name: 'Cadastrar endereço', img: './img/viacep.PNG', tec: ['JavaScript', 'HTML5', 'CSS3', 'API'], text: 'Projeto desenvolvido com intuito de conseguir completar um formulário de endereço no preenchimento do cep, consumindo a API ViaCep.', link: 'https://paulojrc52.github.io/cep_autocomplet/'},
   {name: 'Linktree', img: './img/linktree.PNG', tec: ['JavaScript', 'CSS3', 'HTML5', 'API Static Forms'], text: 'Projeto de portifolio desenvolvido com JavaScript, HTML e CSS.', link: 'https://shamantattoo.netlify.app/'},
   {name: 'Landing Page', img: './img/landing-page.PNG', tec: ['JavaScript', 'CSS3', 'HTML5', 'API frontend'], text: 'Projeto de Landing Page criado baseado em um projeto de teste de uma empresa.', link: 'https://paulojrc52.github.io/landing_page-teste/'},
@@ -12,6 +11,7 @@ const projects = [
   {name: 'Digital Tech', img: './img/digital-tech.PNG', tec: ['EJS', 'CSS3', 'Express.js'], text: 'Esse projeto foi desenvolvido seguindo a ideia de estudar sobre servidores e me aprofundar mais no backend usando o "express.js".', link: 'https://github.com/paulojrc52/pagina-digital-tech'},
   {name: 'Lista de Tarefas', img: './img/lista-tarefa.PNG', tec: ['JavaScript', 'HTML5', 'CSS3', 'Local Storage'], text: 'Projeto criado com JavaScript puro usando o armazenamento do local storage', link: 'https://paulojrc52.github.io/to_do_list/'},
   {name: 'Quiz interativo', img: './img/quiz.PNG', tec: ['JavaScript', 'Bootstrap'], text: 'Quiz interativo criado com JavaScript puro e bootstrap', link: 'https://quiz-portugues-portugal.netlify.app/'},
+  {name: 'AnunXiar', img: './img/anunxiar.PNG', tec: ['JavaScript', 'NextJS', 'ReactJS', 'Material-UI', 'Next-auth', 'React-dropzone', 'Axios', 'Formik', 'Bcrypt', 'MongoDB', 'Mongoose', 'Yup'], text: 'Projeto desenvolvido com intuito de conseguir completar uma aplicação do começo ao fim utilizando JavaScript acompanhado de suas mais tradicionais Libs...', link: 'https://github.com/paulojrc52/anunxiar'},
   {name: 'WORLD PHONE LIST (W.P.L)', img: './img/WPL.png', tec: ['Flask', 'Python', 'HTML5', 'CSS3', 'SQLite3'], text: 'A ideia para o desenvolvimento deste projeto foi que ele pudesse ajudar familiares que perderam o contato com outros familiares, pois a aplicação só entrega o que é prometido se no momento da pesquisa você souber o nome completo da pessoa que procura... E claro, se os dois já estiverem cadastrados na aplicação.', link: 'https://github.com/paulojrc52/World-Phone-List/'},
 ]
 

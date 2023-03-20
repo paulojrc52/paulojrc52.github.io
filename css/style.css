@@ -90,40 +90,36 @@ h2 {
 .hidden {
   display: none;
 }
+
 .links-list {
-  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  padding: 15px 6px;
   list-style: none;
 }
 
 .links-list li {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   margin: 10px auto;
+  flex-wrap: wrap;
+  max-width: 320px;
+  padding: 10px;
+  border-radius: 50px;
   align-items: center;
+  background: white;
+  border: 3px solid white;
+  box-shadow: 0 0 15px white;
+  font-weight: bold;
 }
 
 .links-list li a {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background: white;
-  max-width: 320px;
-  padding: 15px;
-  width: 100%;
-  border-radius: 50px;
   text-decoration: none;
   color: rgb(54,77,204);
-  font-weight: bold;
-  border: 3px solid white;
-  box-shadow: 0 0 15px white;
-}
-
-#links {
-  display: flex;
-  height: 100%;
-  flex-wrap: wrap;
-  max-width: 900px;
 }
 
 .contacts {
