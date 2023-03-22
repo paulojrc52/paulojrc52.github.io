@@ -76,10 +76,9 @@ h2 {
 .button-projects {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid yellow;
+  border: 1px solid rgb(226, 199, 43);
   border-radius: 50px;
   color: rgb(226, 199, 43);
-  box-shadow: 0 0 10px white;
   cursor: pointer;
 }
 
@@ -108,8 +107,7 @@ h2 {
   border-radius: 50px;
   align-items: center;
   background: white;
-  border: 3px solid white;
-  box-shadow: 0 0 15px white;
+  border: 1px solid rgb(226, 199, 43);
   font-weight: bold;
 }
 
@@ -141,8 +139,7 @@ h2 {
   text-decoration: none;
   color: rgb(226, 199, 43);
   font-weight: bold;
-  border: 1px solid yellow;
-  box-shadow: 0 0 15px white;
+  border: 1px solid rgb(226, 199, 43);
 }
 .contacts li a span {
     color: grey;
@@ -169,7 +166,7 @@ h2 {
   color: rgb(0, 0, 0);
   font-weight: bold;
   border: 1px solid rgb(0, 0, 0);
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 10px white;
 }
 
 .links-list li a span {
