@@ -29,7 +29,7 @@ body {
   color: white;
   border: 1px solid white;
   padding: 5px;
-  margin: 20px 15px;
+  margin: 10px 10px;
 }
 
 .card_back, .card_front {
@@ -99,9 +99,11 @@ body {
 }
 
 .container {
+  height: 100%;
   position: relative;
   text-align: center;
 }
+
 
 .return a {
   color: black;
