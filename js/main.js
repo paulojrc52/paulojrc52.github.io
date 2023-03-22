@@ -42,8 +42,7 @@ const messages = [
   'sou desenvolvedor de software', 
   'trabalho com a linguagem JavaScript', 
   'abaixo você encontra',
-  'redes sociais',
-  'alguns projetos', 
+  'redes sociais, alguns projetos', 
   'e minhas habilidades'
 ]
 
@@ -65,10 +64,13 @@ const type = () => {
 
   const shouldChangeMessage = currentCharacters.length === currentMessage.length
   if (shouldChangeMessage) {
-    messageIndex++ 
-    characterIndex = 0
-  }
-}
+    setTimeout(() => {
+      characterIndex = 0
+      messageIndex++ 
+    }, 1500)
+  }  
+}  
+
 
 setInterval(type, 250)
 
