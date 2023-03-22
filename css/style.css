@@ -151,9 +151,9 @@ h2 {
   }
 
 .footer {
+  margin-top: 60px;
   display: flex;
   position: absolute;
-  bottom: 0;
   right: 0;
   left: 0;
 }
