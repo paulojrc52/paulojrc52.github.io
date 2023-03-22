@@ -5,19 +5,19 @@
 }
 
 body {
+  height: 100vh;
   font-family: 'Righteous', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(30, 27, 46);
-  
+  background-color: rgb(92, 91, 95);
 }
 
 .card {
   position: relative;
-  width: 19%;
+  width: 20%;
   height: 100px;
-  margin:10px;
+  margin:8px;
   transform-style: preserve-3d;
   transition: transform .5s;
 
@@ -25,10 +25,11 @@ body {
 
 .title {
   align-items: center;
-  max-width: 400px;
+  max-width: 500px;
   color: white;
   border: 1px solid white;
-  margin: 20px auto;
+  padding: 5px;
+  margin: 20px 15px;
 }
 
 .card_back, .card_front {
@@ -49,16 +50,15 @@ body {
 
 .card_front {
   transform: rotateY(180deg);
-  background-color: #aa9f9f;
-  
+  background-color: #cac3c3;
 }
 
 .icon {
-  width: 80% ;
+  width: 68% ;
 }
 
 .card_back {
-  color: rgb(77, 75, 75);
+  color: #9b9595;
   background-color: rgb(226, 199, 43);
   font-size: 30px;
 }
@@ -66,7 +66,7 @@ body {
 #gameOver {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
   font-size: 45px;
@@ -89,8 +89,8 @@ body {
 }
 
 #gameBoard {
-  max-width: 500px;
-  margin: 10px;
+  max-width: 900px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -99,13 +99,7 @@ body {
 }
 
 .container {
-  text-align: center;
-  max-width: 1000px;
-  justify-content: center;
-  align-items: center;
-}
-
-#gameBoard h1 {
+  position: relative;
   text-align: center;
 }
 
@@ -114,3 +108,24 @@ body {
   text-decoration: none;
 }
 
+.footer {
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.footer a {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 8px 8px;
+  background: white;
+  padding: 2px 8px;
+  border-radius: 70px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 20px white;
+}

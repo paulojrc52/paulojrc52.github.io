@@ -4,14 +4,10 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   font-family: 'Raleway', sans-serif;
   color: white;
-  background: rgb(30, 27, 46);
+  background: rgb(92, 91, 95);
 }
 
 .container {
@@ -156,15 +152,18 @@ h2 {
 
 .footer {
   display: flex;
-  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .footer a {
   text-align: center;
-  width: 300px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 8px 8px;
   background: white;
-  padding: 5px 20px;
+  padding: 2px 8px;
   border-radius: 70px;
   text-decoration: none;
   color: rgb(0, 0, 0);
